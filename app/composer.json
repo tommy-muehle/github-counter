@@ -1,0 +1,24 @@
+{
+  "name": "tm/github-counter",
+  "type": "project",
+  "keywords": ["github", "badges", "hits"],
+  "homepage": "https://github.com/tommy-muehle/github-counter",
+  "authors": [
+    {
+      "name": "Tommy Muehle",
+      "email": "tommy.muehle@gmail.com",
+      "homepage": "https://tommy-muehle.de"
+    }
+  ],
+  "support": {
+    "email": "tommy.muehle@gmail.com",
+    "issues": "https://github.com/tommy-muehle/github-counter/issues",
+    "docs": "https://github.com/tommy-muehle/github-counter/blob/master/README.md",
+    "source": "https://github.com/tommy-muehle/github-counter/tree/master"
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0",
+    "silex/silex": "~1.3"
+  }
+}

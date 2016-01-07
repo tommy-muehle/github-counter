@@ -1,0 +1,30 @@
+app:
+  restart: always
+  build: ./app
+  command: php -S 0.0.0.0:8001 /app/app.php
+  ports:
+    - "8001:8001"
+  links:
+    - redis:redis
+  env_file:
+    - ./env/common.env
+
+nginx:
+  restart: always
+  build: ./nginx
+  ports:
+    - "80:80"
+    - "443:443"
+  links:
+    - app:app
+    - redis:redis
+  volumes_from:
+    - app
+
+redis:
+  restart: always
+  build: ./redis
+  ports:
+    - "6379:6379"
+  env_file:
+    - ./env/common.env
