@@ -1,0 +1,5 @@
+nginx/certs/
+!nginx/certs/.gitkeep
+.idea/
+app/composer.lock
+app/vendor/
