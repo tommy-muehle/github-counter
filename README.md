@@ -1,6 +1,6 @@
 # github-counter
 
-[![hits](https://sandbox.tommy-muehle.de/tommy-muehle/github-counter.svg)](#)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 Generate your own "hits" (How idiots track success) badge to your repositories and track page views.
 
